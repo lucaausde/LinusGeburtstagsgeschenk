@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-browser = webdriver.Chrome('/Users/Privat/Downloads/chromedriver')
+browser = webdriver.Chrome('chromedriver')
 
 browser.get('https://web.whatsapp.com/')
 do = browser.find_element_by_xpath('//*[@id="pane-side"]/div[1]/div/div/div[1]')

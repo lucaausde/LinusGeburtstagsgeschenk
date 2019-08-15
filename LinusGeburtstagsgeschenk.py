@@ -18,7 +18,7 @@ diff = time2 - time1
 print(str(diff.seconds))
 
 
-browser = webdriver.Chrome('/Users/Privat/Downloads/chromedriver')
+browser = webdriver.Chrome('chromedriver')
 
 browser.get('https://web.whatsapp.com/')
 time.sleep(10)
