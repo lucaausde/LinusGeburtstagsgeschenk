@@ -33,7 +33,7 @@ pyautogui.press('enter')
 
 # Declare array holding tons of translations of "happy birthday"
 
-happy_birthday = ["wunderbaren Geburtstag!", "a happy birthday! - Englisch", "հիանալի ծննդյան օր! - Armenisch (lol)", "un magnifique anniversaire! - Französisch", "in prachtige jierdei! - Friesisch", "ένα θαυμάσιο γενέθλιο! - Griechisch (Für den Philosophen des Jahrhunderts)", "lā hānau maikaʻi! - Hawaiianisch", "멋진 생일 - Koreanisch", "un maravilloso cumpleaños! - Spanisch", "wspaniałe urodziny! - Polnisch", "прекрасный день рождения! UND NATÜRLICH RUSSISCH"]
+happy_birthday = ["wunderbaren Geburtstag!", "happy birthday! - Englisch", "հիանալի ծննդյան օր! - Armenisch", "un magnifique anniversaire! - Französisch", "in prachtige jierdei! - Friesisch", "ένα θαυμάσιο γενέθλιο! - Griechisch", "lā hānau maikaʻi! - Hawaiianisch", "멋진 생일 - Koreanisch", "un maravilloso cumpleaños! - Spanisch", "wspaniałe urodziny! - Polnisch", "прекрасный день рождения! - Russisch"]
 
 for xhappy in happy_birthday:
     find_path = browser.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]')
