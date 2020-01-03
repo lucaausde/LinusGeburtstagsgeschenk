@@ -7,7 +7,7 @@ service = service.Service('chromedriver')
 service.start()
 
 driver = webdriver.Remote(service.service_url)
-driver.get('http://www.google.com/xhtml');
+driver.get('https://www.ecosia.org');
 time.sleep(5)
 
 driver.quit()
